@@ -43,6 +43,14 @@ main {
     max-width: 400px;
 }
 
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--text-main);
+}
+
 .search {
     display: flex;
     align-items: center;
@@ -89,10 +97,10 @@ main {
     display: block;
 }
 
-#weather .title {
+#weather .title_city {
     text-align: center;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 8px;
     color: var(--text-main);
 }
@@ -164,6 +172,8 @@ main {
 .temp_min_icon { color: var(--icon-temp-min); }
 .humidity_icon { color: var(--icon-humidity); }
 .wind_icon { color: var(--icon-wind); }
+.title_icon { color: var(--icon-temp-min); }
+.search_icon { color: var(--icon-temp-max); }
 
 .alert {
     display: flex;
