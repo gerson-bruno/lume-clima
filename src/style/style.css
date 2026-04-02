@@ -150,7 +150,7 @@ main {
     gap: 8px;
 }
 
-.other_infos .info h2 {
+.other_infos .info h3 {
     font-size: 14px;
     font-weight: 600;
     color: var(--text-main);
