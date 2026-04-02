@@ -31,7 +31,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: var(--bg-gradient); /
+    background: var(--bg-gradient); 
 }
 
 main {
@@ -129,7 +129,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
-    margin: 12px 06px;
+    margin: 12px 0;
 }
 
 .other_infos .info {
@@ -164,3 +164,20 @@ main {
 .temp_min_icon { color: var(--icon-temp-min); }
 .humidity_icon { color: var(--icon-humidity); }
 .wind_icon { color: var(--icon-wind); }
+
+.alert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px;
+    color: var(--accent-color);
+}
+
+.alert img {
+    max-width: 230px;
+    margin-top: 12px;
+}
