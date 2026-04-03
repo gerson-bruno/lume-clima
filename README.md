@@ -23,7 +23,7 @@ Este projeto foi construído utilizando as ferramentas mais modernas do ecossist
 *   **[Vite](https://vitejs.dev/)**: Ferramenta de build de última geração para um desenvolvimento rápido.
 *   **JavaScript (ES6+)**: Lógica assíncrona para consumo de API.
 *   **CSS3**: Estilização moderna com foco em responsividade.
-*   **OpenWeather API**: Fonte de dados meteorológicos globais.
+*   **Weather API**: Fonte de dados meteorológicos globais.
 *   **Vercel**: Plataforma de deployment e hospedagem.
 
 ---
