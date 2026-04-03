@@ -191,3 +191,52 @@ main {
     max-width: 230px;
     margin-top: 12px;
 }
+#forecast {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.forecast_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.forecast_item {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px var(--shadow-color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.forecast_item p:first-child {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-main);
+    text-transform: capitalize;
+}
+
+.forecast_item img {
+    width: 42px;
+    height: 42px;
+}
+
+.forecast_item p:nth-child(3) {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-main);
+}
+
+.forecast_item p:last-child {
+    font-size: 11px;
+    color: #64748b;
+    text-transform: capitalize;
+}
