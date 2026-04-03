@@ -1,6 +1,6 @@
 # 🌤️ Lume | Clima em Tempo Real
 
-O **Lume** é uma aplicação web minimalista e funcional desenvolvida para fornecer informações meteorológicas precisas de cidades em todo o mundo. Utilizando a API do OpenWeatherMap, o projeto foca em uma experiência de usuário direta, rápida e com um design moderno.
+O **Lume** é uma aplicação web minimalista e funcional desenvolvida para fornecer informações meteorológicas precisas de cidades em todo o mundo. Utilizando a API do [WeatherAPI](https://www.weatherapi.com/), o projeto foca em uma experiência de usuário direta, rápida e com um design moderno.
 
 ---
 
